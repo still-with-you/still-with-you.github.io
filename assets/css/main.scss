@@ -13,3 +13,21 @@ search: false
   max-width: $max-width;
   margin-inline: auto;
 }
+
+/* Slimmer masthead height */
+.masthead__inner-wrap {
+  padding: 0.6em 1em;
+}
+
+.site-title {
+  line-height: 1.1;
+}
+
+/* Smaller body text in main content */
+.page__content {
+  p,
+  li,
+  dl {
+    font-size: $type-size-7;
+  }
+}
