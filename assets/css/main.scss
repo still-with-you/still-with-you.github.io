@@ -14,6 +14,12 @@ search: false
   margin-inline: auto;
 }
 
+/* Center the whole page column (sidebar + content) */
+.initial-content {
+  display: flex;
+  justify-content: center;
+}
+
 /* Slimmer masthead height */
 .masthead__inner-wrap {
   padding: 0.6em 1em;
