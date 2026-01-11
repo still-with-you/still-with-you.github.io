@@ -1,0 +1,35 @@
+{% assign home_sections = site.data.home.sections | default: empty %}
+{% assign section = home_sections | where: "title", include.section_title | first %}
+
+{% if section %}
+  {% if include.show_section_title != false %}
+    <h2>{{ section.title }}</h2>
+  {% endif %}
+  {% if section.note %}<div class="home-section__note">{{ section.note }}</div>{% endif %}
+  <div class="home-section__items">
+    {% if section.groups %}
+      {% for group in section.groups %}
+        <div class="home-section__group">
+          {% if include.show_group_titles != false %}
+            <div class="home-section__title is-group">{{ group.title }}</div>
+          {% endif %}
+          {% for item in group.items %}
+            <div class="home-section__item">
+              <div class="home-section__title">{{ item.title }}</div>
+              {% if item.meta %}<div class="home-section__meta">{{ item.meta }}</div>{% endif %}
+              {% if item.detail %}<div class="home-section__detail">{{ item.detail | markdownify | remove: '<p>' | remove: '</p>' }}</div>{% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    {% else %}
+      {% for item in section.items %}
+        <div class="home-section__item">
+          <div class="home-section__title">{{ item.title }}</div>
+          {% if item.meta %}<div class="home-section__meta">{{ item.meta }}</div>{% endif %}
+          {% if item.detail %}<div class="home-section__detail">{{ item.detail | markdownify | remove: '<p>' | remove: '</p>' }}</div>{% endif %}
+        </div>
+      {% endfor %}
+    {% endif %}
+  </div>
+{% endif %}

@@ -5,4 +5,4 @@ permalink: /cv/
 author_profile: true
 ---
 
-Coming soon.
+Will be updated soon.

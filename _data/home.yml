@@ -1,8 +1,9 @@
 about:
   title: "About Me"
   body: >
-    I am a PhD candidate in Computer Science at Hanyang University, advised by Taeuk Kim, and a
-    researcher at the Hanyang University NLP Lab.
+    I am a **PhD candidate in Computer Science at [Hanyang University](https://www.hanyang.ac.kr/web/eng)**,
+    advised by **[Taeuk Kim](mailto:kimtaeuk@hanyang.ac.kr)**, and a researcher at the
+    **[Hanyang University NLP Lab](https://sites.google.com/view/hyu-nlp/)**.
     I study dialogue systems and large language models with a focus on building conversational agents
     that stay robust in realistic settings where user behavior is complex, underspecified, and changes
     over time.
@@ -10,14 +11,126 @@ about:
 research:
   title: "Research Interests"
   body: >
-    I focus on proactive conversational agents that reason beyond surface intent detection. My work
-    models compound user intents, fluid shifts between task-oriented and open-domain dialogue, and latent
-    preferences that emerge over long-term interaction. I explore how LLM-based agents can abstract
-    persistent preference patterns, manage dialogue flow proactively, and ground inferred preferences into
-    structured decisions such as tool calls.
+    I focus on **proactive conversational agents** that reason beyond surface intent detection. My work
+    models **compound user intents**, fluid shifts between task-oriented and open-domain dialogue, and
+    **latent preferences** that emerge over **long-term interaction context**. I explore how LLM-based
+    agents can abstract persistent preference patterns, manage dialogue flow proactively, and ground
+    inferred preferences into structured decisions such as tool calls.
 
 keywords:
   title: "Keywords"
   list:
     - "Proactive conversational agents"
     - "Complex/compound intent understanding"
+
+sections:
+  - title: "Education"
+    items:
+      - title: "Ph.D. Candidate, Computer Science — Hanyang University"
+        meta: "Seoul, South Korea — Aug 2024–Present"
+        detail: "Hanyang University NLP Lab. Advisor: Taeuk Kim."
+      - title: "M.S., Artificial Intelligence — Hanyang University"
+        meta: "Seoul, South Korea — Sep 2022–Aug 2024"
+        detail: "Hanyang University NLP Lab. Thesis: Enhanced Multi-Intent Detection with Blended Datasets."
+      - title: "B.A. Economics & B.S. Statistics — Sookmyung Women’s University"
+        meta: "Seoul, South Korea — Mar 2014–Feb 2020"
+        detail: ""
+  - title: "Experience"
+    items:
+      - title: "Researcher, KT (Internship)"
+        meta: "Seoul, South Korea — Jul 2023–Aug 2023 (Hybrid)"
+        detail: "KT AI2XL Research Lab. Large AI application P-TF emotional dialogue system project."
+      - title: "Researcher, Saltlux (Full-time)"
+        meta: "Seoul, South Korea — Mar 2020–Aug 2022 (Hybrid)"
+        detail: "AI Labs advanced research team."
+  - title: "Publications"
+    note: "* Co-first author; † Corresponding author."
+    groups:
+      - title: "Under Review"
+        items:
+          - title: "Latent Preference Reasoning for Multi-Session Personalized Tool-Calling"
+            meta: "Under review — 2026"
+            detail: "_**Yejin Yoon**\\*, Minseo Kim\\*, Taeuk Kim†._"
+      - title: "International Conferences"
+        items:
+          - title: "Beyond Task-Oriented and Chitchat Dialogues: Proactive and Transition-Aware Conversational Agents"
+            meta: "EMNLP 2025 — Nov 2025"
+            detail: "_**Yejin Yoon**, Yuri Son, Namyoung So, Minseo Kim, Minsoo Cho, Chanhee Park, Seungshin Lee, Taeuk Kim†._<br>[ Paper ](https://aclanthology.org/2025.emnlp-main.672/) · [ Code ](https://github.com/HYU-NLP/TACT) · [ Data ](https://huggingface.co/datasets/HYU-NLP/TACT)"
+          - title: "BlendX: Complex Multi-Intent Detection with Blended Patterns"
+            meta: "LREC-COLING 2024 — May 2024"
+            detail: "_**Yejin Yoon**, Jungyeon Lee, Kangsan Kim, Chanhee Park, Taeuk Kim†._<br>[ Paper ](https://aclanthology.org/2024.lrec-main.218) · [ Code ](https://github.com/HYU-NLP/BlendX) · [ Data ](https://huggingface.co/datasets/HYU-NLP/BlendX)"
+      - title: "Domestic Conferences"
+        collapsible: true
+        items:
+          - title: "Multi-Intent Detection for Korean Spoken Language"
+            meta: "KCC 2024 — Jun 2024"
+            detail: "_**Yejin Yoon**\\*, Jisoo Kim\\*, Jungmin Lim, Jungyeon Lee, Taeuk Kim†._<br>Outstanding Paper Award.<br>[ Paper ](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11861880)"
+          - title: "A Multi-Intent Dataset Enhanced with Implicit Concatenation"
+            meta: "KCC 2024 — Jun 2024"
+            detail: "_Sungmin So\\*, Minji Woo\\*, **Yejin Yoon**, Jungyeon Lee, Taeuk Kim†._<br>[ Paper ](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11861888)"
+          - title: "Enhanced Prompting for Multi-Label Classification"
+            meta: "KCC 2024 — Jun 2024"
+            detail: "_Jungyeon Lee, Youngwoo Shin, **Yejin Yoon**, Taeuk Kim†._<br>[ Paper ](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11861884)"
+          - title: "KoLegal-BERT: Legal Language Representation Model for Legal Domain Text Mining"
+            meta: "KCC 2022 — Jul 2022"
+            detail: "_Sangmin Park\\*, **Yejin Yoon**\\*, Jaeyoun Lee, Jaieun Kim†._<br>[ Paper ](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11113565)"
+  - title: "Patent"
+    groups:
+      - title: "International Patents"
+        items:
+          - title: "METHOD AND APPARATUS FOR GENERATING MULTI-INTENT UTTERANCE DATASETS"
+            meta: "US 8/972132 — Filed Dec 2024"
+            detail: ""
+          - title: "用于生成多意图话语数据集的方法和装置"
+            meta: "CN 202411789815.2 — Filed Dec 2024"
+            detail: ""
+      - title: "Domestic Patents"
+        collapsible: true
+        items:
+          - title: "선호 기반 전환 인지형 대화모델의 학습을 위한 방법 및 장치"
+            meta: "KR 10-2025-0163766 — Filed Nov 2025"
+            detail: ""
+          - title: "전환 인지형 대화 데이터셋의 생성 및 검증을 위한 방법 및 장치"
+            meta: "KR 10-2025-0163754 — Filed Nov 2025"
+            detail: ""
+          - title: "단일 의도 발화를 다중 의도 발화로 확장하기 위한 규칙 활용 방식과 생성형 인공지능 모델 활용을 결합한 발화 병합 기술"
+            meta: "KR 10-2024-0072241 — Filed Jun 2024"
+            detail: ""
+          - title: "다중 페르소나를 이용한 대화 방법, 다중 페르소나를 이용한 대화 장치 및 페르소나 분류모델의 트레이닝 방법"
+            meta: "KR 10-2024-0016697 — Filed Feb 2024"
+            detail: ""
+  - title: "Awards and Honors"
+    items:
+      - title: "Seoul Tech Scholarship"
+        meta: "Seoul Scholarship Foundation — Nov 2025"
+        detail: ""
+      - title: "Excellence Scholarship for Doctoral Students"
+        meta: "Hanyang University — Sep 2024"
+        detail: ""
+      - title: "KCC 2024 Outstanding Paper Award"
+        meta: "Korean Institute of Information Scientists and Engineers (KIISE) — Jun 2024"
+        detail: "Multi-Intent Detection for Korean Spoken Language"
+      - title: "Outstanding Achievement Award (Graduation Excellence)"
+        meta: "Sookmyung Women’s University — Feb 2020"
+        detail: ""
+  - title: "Projects"
+    items:
+      - title: "Conversational Agents with Hyper Long-Term Memory <span class=\"home-section__sub\">초장기기억 기반 대화형 에이전트</span>"
+        meta: "National Research Foundation of Korea (NRF) — 2025.03–2028.02 · Project Lead"
+        detail: ""
+      - title: "Multi-Intent Modeling for Advanced Speech Recognition <span class=\"home-section__sub\">음성인식 고도화를 위한 복합의도 모델 연구</span>"
+        meta: "Hyundai Motor Company — 2024.08–2026.02 · Project Lead"
+        detail: ""
+      - title: "Natural Language-Based Compound Intent Algorithms <span class=\"home-section__sub\">자연어 기반 복합 의도 알고리즘 연구</span>"
+        meta: "Hyundai Motor Group (NGV) — 2023.04–2024.04 · Project Lead"
+        detail: ""
+  # - title: "Academic Services"
+  #   items:
+  #     - title: "Role / Activity"
+  #       meta: "Venue, YYYY"
+  #       detail: "Brief description."
+  - title: "Talks"
+    items:
+      - title: "Practical Strategies for Overcoming the Limits of LLM Dialogue Capacity <span class=\"home-section__sub\">LLM의 Dialogue Capacity 한계를 극복하기 위한 실무적인 대응 연구</span>"
+        meta: "SKT — Apr 2024"
+        detail: ""

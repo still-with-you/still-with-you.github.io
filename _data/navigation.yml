@@ -1,13 +1,19 @@
 # main links
 main:
-  - title: "Home"
+  - title: "About Me"
     url: /
   - title: "CV"
     url: /cv/
   - title: "Publications"
     url: /publications/
+  - title: "Patent"
+    url: /patent/
+  - title: "Projects"
+    url: /projects/
   - title: "Talks"
     url: /talks/
+  # - title: "Talks"
+  #   url: /talks/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

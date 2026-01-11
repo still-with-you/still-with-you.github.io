@@ -117,11 +117,11 @@ author:
   name             : "Yejin Yoon"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Ph.D Candidate at Hanyang University."
-  location         : "Seoul/South Korea"
+  location         : "Seoul / South Korea"
   email            :
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope"
       url: "#"
       text: "stillwithyou [at] hanyang.ac.kr"
     - label: "Website"
@@ -142,6 +142,9 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
+    - label: "Threads"
+      icon: "fa-brands fa-threads"
+      url: "https://www.threads.com/@10.320.16.0144"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/10.320.16.0144"

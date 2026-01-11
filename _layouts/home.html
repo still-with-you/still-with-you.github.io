@@ -7,10 +7,10 @@ layout: archive
 {% assign home = site.data.home %}
 <section class="home-intro">
   <h2>{{ home.about.title }}</h2>
-  <p>{{ home.about.body }}</p>
+  <p>{{ home.about.body | markdownify }}</p>
 
   <h2>{{ home.research.title }}</h2>
-  <p>{{ home.research.body }}</p>
+  <p>{{ home.research.body | markdownify }}</p>
 
   <p>
     <strong>{{ home.keywords.title }}:</strong>
@@ -18,6 +18,56 @@ layout: archive
   </p>
 </section>
 
+{% if home.sections %}
+<section class="home-sections">
+  {% for section in home.sections %}
+    <h2 id="{{ section.title | slugify }}">{{ section.title }}</h2>
+    {% if section.note %}<div class="home-section__note">{{ section.note }}</div>{% endif %}
+    <div class="home-section__items">
+      {% if section.groups %}
+        {% for group in section.groups %}
+          {% if group.collapsible %}
+            <div class="home-section__group">
+              <div class="home-section__title is-group">{{ group.title }}</div>
+              <details class="home-section__toggle">
+                <summary>Show/Hide</summary>
+                {% for item in group.items %}
+                  <div class="home-section__item">
+                    <div class="home-section__title">{{ item.title }}</div>
+                    {% if item.meta %}<div class="home-section__meta">{{ item.meta }}</div>{% endif %}
+                    {% if item.detail %}<div class="home-section__detail">{{ item.detail | markdownify | remove: '<p>' | remove: '</p>' }}</div>{% endif %}
+                  </div>
+                {% endfor %}
+              </details>
+            </div>
+          {% else %}
+            <div class="home-section__group">
+              <div class="home-section__title is-group">{{ group.title }}</div>
+              {% for item in group.items %}
+                <div class="home-section__item">
+                  <div class="home-section__title">{{ item.title }}</div>
+                  {% if item.meta %}<div class="home-section__meta">{{ item.meta }}</div>{% endif %}
+                  {% if item.detail %}<div class="home-section__detail">{{ item.detail | markdownify | remove: '<p>' | remove: '</p>' }}</div>{% endif %}
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {% for item in section.items %}
+          <div class="home-section__item">
+            <div class="home-section__title{% if item.meta == '' and item.detail == '' %} is-group{% endif %}">{{ item.title }}</div>
+            {% if item.meta %}<div class="home-section__meta">{{ item.meta }}</div>{% endif %}
+            {% if item.detail %}<div class="home-section__detail">{{ item.detail | markdownify | remove: '<p>' | remove: '</p>' }}</div>{% endif %}
+          </div>
+        {% endfor %}
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+{%- comment -%}
 <h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
 
 {% if paginator %}
@@ -32,3 +82,4 @@ layout: archive
 </div>
 
 {% include paginator.html %}
+{%- endcomment -%}

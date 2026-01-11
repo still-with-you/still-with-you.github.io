@@ -57,6 +57,163 @@ search: false
   padding: 0.6em 1em;
 }
 
+.masthead__inner-wrap {
+  max-width: $max-width;
+  margin-inline: auto;
+}
+
+.masthead__menu-item a {
+  font-size: $type-size-6;
+}
+
+/* Link color from palette */
+a {
+  color: #E2BFC2;
+}
+
+a:hover,
+a:focus {
+  color: #D4CBCF;
+}
+
+/* Keep bold weight consistent across themes */
+strong,
+b {
+  font-weight: 700;
+  color: inherit;
+}
+
+/* Theme toggle button */
+.theme__toggle {
+  margin-inline-start: 0.25rem;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.theme__toggle i {
+  font-size: $type-size-6;
+}
+
+/* Dark theme overrides */
+html[data-theme="dark"] {
+  background: #151515;
+}
+
+html[data-theme="dark"] body {
+  background: #151515;
+  color: #e7e2dc;
+}
+
+html[data-theme="dark"] .masthead,
+html[data-theme="dark"] .page__footer {
+  background: #151515;
+  border-color: #2f2f2f;
+}
+
+html[data-theme="dark"] .masthead__inner-wrap {
+  background: #151515;
+}
+
+html[data-theme="dark"] .greedy-nav {
+  background: #151515;
+}
+
+html[data-theme="dark"] .archive__subtitle,
+html[data-theme="dark"] .home-intro h2 {
+  color: #cfc9c2;
+  border-color: #2f2f2f;
+}
+
+html[data-theme="dark"] .page__content h2 {
+  border-color: #2f2f2f;
+}
+
+html[data-theme="dark"] .page__content,
+html[data-theme="dark"] .archive,
+html[data-theme="dark"] .page {
+  color: #e7e2dc;
+}
+
+html[data-theme="dark"] .page__content strong,
+html[data-theme="dark"] .archive strong,
+html[data-theme="dark"] .page strong,
+html[data-theme="dark"] .page__content b,
+html[data-theme="dark"] .archive b,
+html[data-theme="dark"] .page b {
+  color: #f7f2ec;
+}
+
+html[data-theme="dark"] a {
+  color: #F1D5D8;
+}
+
+html[data-theme="dark"] a:hover,
+html[data-theme="dark"] a:focus {
+  color: #EAD7D7;
+}
+
+html[data-theme="dark"] .masthead__menu-item a {
+  color: #e7e2dc;
+}
+
+html[data-theme="dark"] .masthead__menu-item a:hover,
+html[data-theme="dark"] .masthead__menu-item a:focus {
+  color: #E2BFC2;
+}
+
+html[data-theme="dark"] .author__urls {
+  background: #1d1d1d;
+  border-color: #2f2f2f;
+}
+
+html[data-theme="dark"] .author__urls i,
+html[data-theme="dark"] .author__contact-text,
+html[data-theme="dark"] .author__contact-text i {
+  color: #e7e2dc;
+}
+
+html[data-theme="dark"] .sidebar {
+  color: #e7e2dc;
+}
+
+/* Sidebar social icons should not use brand colors */
+.author__urls a,
+.author__urls i,
+.author__urls .svg-inline--fa {
+  color: inherit;
+}
+
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa {
+  color: inherit !important;
+}
+
+.page__footer .social-icons i,
+.page__footer .social-icons .svg-inline--fa {
+  color: inherit !important;
+}
+
+/* Match footer width to page content */
+.page__footer > footer {
+  max-width: $max-width;
+  margin-inline: auto;
+}
+
+.page__footer-copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer__right {
+  white-space: nowrap;
+}
+
 .site-title {
   line-height: 1.1;
 }
@@ -73,4 +230,179 @@ search: false
 /* Keep keywords line from looking like a subtitle */
 .home-intro p strong {
   color: $text-color;
+}
+
+/* Home sections (no bullets) */
+.home-sections h2 {
+  font-size: $type-size-5;
+  color: $muted-text-color;
+  margin: 1.414em 0 0.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid $border-color;
+}
+
+.home-section__item {
+  margin: 0.25em 0 0.85em;
+}
+
+.home-section__title {
+  font-weight: 700;
+  font-size: $type-size-7;
+  color: $muted-text-color;
+}
+
+.home-section__title.is-group {
+  font-weight: 600;
+  font-size: $type-size-6;
+  margin-top: 0.75em;
+  color: $muted-text-color;
+}
+
+.home-section__sub {
+  display: block;
+  font-weight: 400;
+  font-size: $type-size-6;
+  color: $muted-text-color;
+}
+
+.home-section__meta {
+  color: $muted-text-color;
+  font-size: $type-size-8;
+}
+
+.home-section__detail {
+  margin-top: 0.15em;
+  font-size: $type-size-8;
+}
+
+.home-section__detail p {
+  margin: 0;
+}
+
+.home-section__group {
+  margin-bottom: 0.75em;
+}
+
+.home-section__group summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.home-section__group summary::-webkit-details-marker {
+  display: none;
+}
+
+.home-section__toggle {
+  margin-top: 0.25em;
+}
+
+.home-section__toggle summary {
+  font-size: $type-size-8;
+  color: $muted-text-color;
+}
+
+html[data-theme="dark"] .home-section__toggle summary {
+  color: #b9b3ad;
+}
+
+.home-section__note {
+  margin-top: 0.2em;
+  color: $muted-text-color;
+  font-size: 0.55em;
+}
+
+/* Match page titles (Publications/CV) to section heading size */
+.layout--single .page__title {
+  font-size: $type-size-5;
+  font-weight: 700;
+  color: $muted-text-color;
+  margin: 1.414em 0 0.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid $border-color;
+}
+
+.layout--single .page__title a {
+  color: inherit;
+}
+
+html[data-theme="dark"] .layout--single .page__title {
+  color: #cfc9c2;
+  border-color: #2f2f2f;
+}
+
+/* Dark mode overrides for home sections */
+html[data-theme="dark"] .home-sections h2 {
+  color: #cfc9c2;
+  border-color: #2f2f2f;
+}
+
+html[data-theme="dark"] .home-section__meta {
+  color: #b9b3ad;
+}
+
+html[data-theme="dark"] .home-section__title,
+html[data-theme="dark"] .home-section__detail {
+  color: #e7e2dc;
+}
+
+html[data-theme="dark"] .home-section__title.is-group {
+  color: #cfc9c2;
+}
+
+html[data-theme="dark"] .home-section__sub {
+  color: #b9b3ad;
+}
+
+/* Publications page */
+.pub-card {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid $border-color;
+}
+
+.pub-card__media img {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid $border-color;
+}
+
+.pub-card__title {
+  margin: 0 0 0.35rem;
+}
+
+.pub-card__meta {
+  color: $muted-text-color;
+  font-size: $type-size-7;
+  margin-bottom: 0.35rem;
+}
+
+.pub-card__authors {
+  font-size: $type-size-7;
+  margin-bottom: 0.5rem;
+}
+
+.pub-card__abstract {
+  margin-bottom: 0.6rem;
+}
+
+.pub-card__links .btn {
+  margin-inline-end: 0.4rem;
+}
+
+@include breakpoint($small) {
+  .pub-card {
+    grid-template-columns: 200px 1fr;
+  }
+}
+
+@include breakpoint($small - 1) {
+  .pub-card {
+    grid-template-columns: 1fr;
+  }
+}
+
+html[data-theme="dark"] .home-section__note {
+  color: #b9b3ad;
 }
