@@ -1,0 +1,23 @@
+about:
+  title: "About Me"
+  body: >
+    I am a PhD candidate in Computer Science at Hanyang University, advised by Taeuk Kim, and a
+    researcher at the Hanyang University NLP Lab. My background spans AI, economics, and statistics.
+    I study dialogue systems and large language models with a focus on building conversational agents
+    that stay robust in realistic settings where user behavior is complex, underspecified, and changes
+    over time.
+
+research:
+  title: "Research Interests"
+  body: >
+    I focus on proactive conversational agents that reason beyond surface intent detection. My work
+    models compound user intents, fluid shifts between task-oriented and open-domain dialogue, and latent
+    preferences that emerge over long-term interaction. I explore how LLM-based agents can abstract
+    persistent preference patterns, manage dialogue flow proactively, and ground inferred preferences into
+    structured decisions such as tool calls.
+
+keywords:
+  title: "Keywords"
+  list:
+    - "Proactive conversational agents"
+    - "Complex/compound intent understanding"

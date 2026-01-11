@@ -4,26 +4,18 @@ layout: archive
 
 {{ content }}
 
+{% assign home = site.data.home %}
 <section class="home-intro">
-  <h2>About Me</h2>
-  <p>
-    I am a PhD candidate in Computer Science at Hanyang University, advised by Taeuk Kim, and a
-    researcher at the Hanyang University NLP Lab. My background spans AI, economics, and statistics.
-    I study dialogue systems and large language models with a focus on building conversational agents
-    that stay robust in realistic settings where user behavior is complex, underspecified, and changes
-    over time.
-  </p>
+  <h2>{{ home.about.title }}</h2>
+  <p>{{ home.about.body }}</p>
 
-  <h2>Research Interests</h2>
-  <p>
-    I focus on proactive conversational agents that reason beyond surface intent detection. My work
-    models compound user intents, fluid shifts between task-oriented and open-domain dialogue, and latent
-    preferences that emerge over long-term interaction. I explore how LLM-based agents can abstract
-    persistent preference patterns, manage dialogue flow proactively, and ground inferred preferences into
-    structured decisions such as tool calls.
-  </p>
+  <h2>{{ home.research.title }}</h2>
+  <p>{{ home.research.body }}</p>
 
-  <p><strong>Keywords:</strong> Proactive conversational agents; complex/compound intent understanding</p>
+  <p>
+    <strong>{{ home.keywords.title }}:</strong>
+    {{ home.keywords.list | join: "; " }}
+  </p>
 </section>
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
