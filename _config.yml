@@ -114,8 +114,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yejin Yoon
-  avatar           : /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Yejin Yoon"
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "NLP Researcher"
   location         : "Seoul/South Korea"
   email            :
