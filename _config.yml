@@ -116,7 +116,7 @@ analytics:
 author:
   name             : "Yejin Yoon"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "NLP Researcher"
+  bio              : "Ph.D Candidate at Hanyang University."
   location         : "Seoul/South Korea"
   email            :
   links:
@@ -134,7 +134,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/still-with-you"
+      url: "https://github.com/still-with-you"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/10.320.16.0144"
