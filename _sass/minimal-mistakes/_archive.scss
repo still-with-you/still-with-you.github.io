@@ -43,6 +43,14 @@
   }
 }
 
+.home-intro {
+  p,
+  li,
+  dl {
+    font-size: $type-size-8;
+  }
+}
+
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;

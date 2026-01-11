@@ -14,10 +14,42 @@ search: false
   margin-inline: auto;
 }
 
-/* Center the whole page column (sidebar + content) */
+/* Center the whole page column (sidebar + content) on wide screens */
 .initial-content {
-  display: flex;
-  justify-content: center;
+  display: block;
+}
+
+@include breakpoint($large) {
+  #main {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    max-width: $max-width;
+    margin-inline: auto;
+  }
+
+  #main > .sidebar {
+    float: none;
+    width: $right-sidebar-width-narrow;
+  }
+
+  #main > .archive,
+  #main > .page {
+    float: none;
+    width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-inline-end: 0;
+  }
+}
+
+@include breakpoint($x-large) {
+  #main > .sidebar {
+    width: $right-sidebar-width;
+  }
+
+  #main > .archive,
+  #main > .page {
+    width: calc(100% - #{$right-sidebar-width});
+  }
 }
 
 /* Slimmer masthead height */
