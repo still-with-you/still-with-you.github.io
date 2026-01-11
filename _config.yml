@@ -122,7 +122,8 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:stillwithyou@hanyang.ac.kr"
+      url: "#"
+      text: "stillwithyou [at] hanyang.ac.kr"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://still-with-you.github.io/"

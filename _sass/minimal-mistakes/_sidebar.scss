@@ -329,6 +329,12 @@
     display: none;
   }
 
+  .author__contact-text {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
   .author__location {
     flex-basis: 100%;
   }
