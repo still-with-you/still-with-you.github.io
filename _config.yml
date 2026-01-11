@@ -151,8 +151,8 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/still-with-you"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
