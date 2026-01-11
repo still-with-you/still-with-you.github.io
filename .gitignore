@@ -30,3 +30,12 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+# Project cleanup (ignore unused demo files)
+docs/
+test/
+screenshot.png
+screenshot-layouts.png
+CHANGELOG.md
+staticman.yml
+minimal-mistakes-jekyll.gemspec
