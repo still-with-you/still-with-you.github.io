@@ -125,7 +125,7 @@ author:
       url: "mailto:stillwithyou@hanyang.ac.kr"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://still-with-you.github.io/"
+      # url: "https://still-with-you.github.io/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/still-with-you"
