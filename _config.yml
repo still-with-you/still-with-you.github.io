@@ -91,7 +91,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : 10_320_16_0144
+  username               : # 10_320_16_0144
 facebook:
   username               :
   app_id                 :
@@ -122,13 +122,13 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:stillwithyou@hanyang.ac.kr"
+      url: "mailto:stillwithyou@hanyang.ac.kr"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/10_320_16_0144"
+      url: "https://twitter.com/10_320_16_0144"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -137,7 +137,7 @@ author:
       # url: "https://github.com/still-with-you"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/10.320.16.0144"
+      url: "https://instagram.com/10.320.16.0144"
 
 # Site Footer
 footer:
