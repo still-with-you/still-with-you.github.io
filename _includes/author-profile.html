@@ -26,7 +26,7 @@
     <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+        <li class="author__location" itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
           <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">{{ author.location }}</span>
         </li>
       {% endif %}
@@ -35,9 +35,6 @@
         {% for link in author.links %}
           {% if link.label and link.url %}
             <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %}><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
-            {% if link.label == "Google Scholar" or link.url contains "scholar.google.com" %}
-            <li class="author__urls-break" aria-hidden="true"></li>
-            {% endif %}
           {% endif %}
         {% endfor %}
       {% endif %}
