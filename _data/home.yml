@@ -164,6 +164,6 @@ sections:
             detail: "Topic: Recent chatbot and dialogue system using large language models"
       - title: "Contributed Talks"
         items:
-          - title: "BlendX"
+          - title: "BlendX: Complex Multi-Intent Detection with Blended Patterns"
             meta: "GITW 2023 Workshop (Tokyo, Japan) — Dec 2023"
             detail: "Topic: Recent task-oriented dialogue (TOD) system research"
