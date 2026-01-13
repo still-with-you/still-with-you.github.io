@@ -167,3 +167,8 @@ sections:
           - title: "BlendX: Complex Multi-Intent Detection with Blended Patterns"
             meta: "GITW 2023 Workshop (Tokyo, Japan) — Dec 2023"
             detail: "Topic: Recent task-oriented dialogue (TOD) system research"
+  - title: "Contact"
+    items:
+      - title: ""
+        meta: ""
+        detail: "Open to exploratory research discussions and potential collaborations related to dialogue systems, conversational AI, and NLP. <br>Also available for invited academic talks and guest lectures.<br>* Email: stillwithyou [at] hanyang.ac.kr"
