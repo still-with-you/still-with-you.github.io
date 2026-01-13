@@ -165,7 +165,7 @@ sections:
       - title: "Contributed Talks"
         items:
           - title: "BlendX: Complex Multi-Intent Detection with Blended Patterns"
-            meta: "GITW 2023 Workshop (Tokyo, Japan) — Dec 2023"
+            meta: "GITW 2023 (Tokyo, Japan) — Dec 2023"
             detail: "Topic: Recent task-oriented dialogue (TOD) system research"
   - title: "Contact"
     items:
