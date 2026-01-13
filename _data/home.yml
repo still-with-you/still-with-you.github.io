@@ -129,7 +129,7 @@ sections:
       - title: "Teaching Assistant"
         items:
           - title: "Natural Language Processing"
-            meta: "Instructor: Taeuk Kim · Sep 2023"
+            meta: "Hanyang University (Instructor: Taeuk Kim) · Sep 2023"
             detail: ""
       - title: "Guest Speaker"
         items:
@@ -137,18 +137,18 @@ sections:
             meta: "Hanyang University · Fall 2025"
             detail: "Topic: Graduate school life and research advice"
           - title: "Graduate School of Applied Artificial Intelligence Information Session"
-            meta: "Mar 2024"
+            meta: "Hanyang University · Mar 2024"
             detail: "Topic: Industry-academia projects, dialogue systems"
           - title: "Natural Language Processing (Instructor: Taeuk Kim)"
-            meta: "Guest Lecturer — Dec 2023"
+            meta: "anyang University (Guest Lecturer) · Dec 2023"
             detail: "Topic: Recent task-oriented dialogue (TOD) system research"
       - title: "Student Mentoring"
         items:
           - title: "CAPSTONE SOFTWARE PROJECT 2"
-            meta: "Mar 2024–Aug 2024"
+            meta: "Hanyang University · Mar 2024–Aug 2024"
             detail: ""
           - title: "CAPSTONE SOFTWARE PROJECT 1"
-            meta: "Sep 2023–Feb 2024"
+            meta: "Hanyang University · Sep 2023–Feb 2024"
             detail: ""
   - title: "Academic Services"
     items:
