@@ -116,13 +116,13 @@ sections:
   - title: "Projects"
     items:
       - title: "Conversational Agents with Hyper Long-Term Memory <span class=\"home-section__sub\">초장기기억 기반 대화형 에이전트</span>"
-        meta: "National Research Foundation of Korea (NRF) — 2025.03–Present · Project Lead"
+        meta: "National Research Foundation of Korea (NRF) — Mar 2025–Present · Project Lead"
         detail: ""
       - title: "Multi-Intent Modeling for Advanced Speech Recognition <span class=\"home-section__sub\">음성인식 고도화를 위한 복합의도 모델 연구</span>"
-        meta: "Hyundai Motor Company — 2024.08–Present · Project Lead"
+        meta: "Hyundai Motor Company — Aug 2024–Present · Project Lead"
         detail: ""
       - title: "Natural Language-Based Compound Intent Algorithms <span class=\"home-section__sub\">자연어 기반 복합 의도 알고리즘 연구</span>"
-        meta: "Hyundai Motor Group (NGV) — 2023.04–2024.04 · Project Lead"
+        meta: "Hyundai Motor Group (NGV) — Apr 2023–Apr 2024 · Project Lead"
         detail: ""
   - title: "Teaching"
     groups:
