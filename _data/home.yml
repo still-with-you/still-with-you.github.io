@@ -133,14 +133,14 @@ sections:
             detail: ""
       - title: "Guest Speaker"
         items:
-          - title: "CS Graduate Program Info Session"
+          - title: "Computer Science Graduate Admissions Information Session"
             meta: "Hanyang University · Fall 2025"
             detail: "Topic: Graduate school life and research advice"
-          - title: "Graduate School of Artificial Intelligence Convergence Info Session"
+          - title: "Graduate School of Applied Artificial Intelligence Information Session"
             meta: "Mar 2024"
             detail: "Topic: Industry-academia projects, dialogue systems"
-          - title: "Natural Language Processing"
-            meta: "Instructor: Taeuk Kim · Dec 2023"
+          - title: "Natural Language Processing (Instructor: Taeuk Kim)"
+            meta: "Guest Lecturer — Dec 2023"
             detail: "Topic: Recent task-oriented dialogue (TOD) system research"
       - title: "Student Mentoring"
         items:
