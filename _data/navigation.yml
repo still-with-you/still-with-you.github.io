@@ -10,6 +10,8 @@ main:
     url: /patent/
   - title: "Projects"
     url: /projects/
+  - title: "Teaching"
+    url: /teaching/
   - title: "Talks"
     url: /talks/
   # - title: "Talks"
