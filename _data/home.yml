@@ -139,8 +139,8 @@ sections:
           - title: "Graduate School of Applied Artificial Intelligence Information Session"
             meta: "Hanyang University · Mar 2024"
             detail: "Topic: Industry-academia projects, dialogue systems"
-          - title: "Natural Language Processing (Instructor: Taeuk Kim)"
-            meta: "Hanyang University (Guest Lecturer) · Dec 2023"
+          - title: "Natural Language Processing (Guest Lecturer)"
+            meta: "Hanyang University (Instructor: Taeuk Kim) · Dec 2023"
             detail: "Topic: Recent task-oriented dialogue (TOD) system research"
       - title: "Student Mentoring"
         items:
