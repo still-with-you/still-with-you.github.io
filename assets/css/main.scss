@@ -71,6 +71,10 @@ a {
   color: #E2BFC2;
 }
 
+a:visited {
+  color: #E2BFC2;
+}
+
 a:hover,
 a:focus {
   color: #D4CBCF;
@@ -147,6 +151,10 @@ html[data-theme="dark"] .page b {
 }
 
 html[data-theme="dark"] a {
+  color: #F1D5D8;
+}
+
+html[data-theme="dark"] a:visited {
   color: #F1D5D8;
 }
 
