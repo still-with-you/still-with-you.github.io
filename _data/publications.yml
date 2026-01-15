@@ -21,6 +21,8 @@ sections:
         abstract: "Abstract coming soon."
         image: "/assets/images/publications/tact.jpg"
         links:
+          - label: "Project Page"
+            url: "https://still-with-you.github.io/tact-page/"
           - label: "Paper"
             url: "https://aclanthology.org/2025.emnlp-main.672/"
           - label: "Code"
