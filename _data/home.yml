@@ -55,7 +55,7 @@ sections:
         items:
           - title: "Beyond Task-Oriented and Chitchat Dialogues: Proactive and Transition-Aware Conversational Agents"
             meta: "EMNLP 2025 — Nov 2025"
-            detail: "_**Yejin Yoon**, Yuri Son, Namyoung So, Minseo Kim, Minsoo Cho, Chanhee Park, Seungshin Lee, Taeuk Kim†._<br>[ Project Page ](https://still-with-you.github.io/tact-page/) · [ Paper ](https://aclanthology.org/2025.emnlp-main.672/) · [ Code ](https://github.com/HYU-NLP/TACT) · [ Data ](https://huggingface.co/datasets/HYU-NLP/TACT)"
+            detail: "_**Yejin Yoon**, Yuri Son, Namyoung So, Minseo Kim, Minsoo Cho, Chanhee Park, Seungshin Lee, Taeuk Kim†._<br>[ Project Page ](https://still-with-you.github.io/page/tact/) · [ Paper ](https://aclanthology.org/2025.emnlp-main.672/) · [ Code ](https://github.com/HYU-NLP/TACT) · [ Data ](https://huggingface.co/datasets/HYU-NLP/TACT)"
           - title: "BlendX: Complex Multi-Intent Detection with Blended Patterns"
             meta: "LREC-COLING 2024 — May 2024"
             detail: "_**Yejin Yoon**, Jungyeon Lee, Kangsan Kim, Chanhee Park, Taeuk Kim†._<br>[ Paper ](https://aclanthology.org/2024.lrec-main.218) · [ Code ](https://github.com/HYU-NLP/BlendX) · [ Data ](https://huggingface.co/datasets/HYU-NLP/BlendX)"
