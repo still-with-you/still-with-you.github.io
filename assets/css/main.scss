@@ -459,6 +459,22 @@ html[data-theme="dark"] .home-section__note {
   transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease;
 }
 
+.research-card,
+.research-card:visited,
+.research-card:hover,
+.research-card:focus,
+.research-card:active {
+  text-decoration: none !important;
+}
+
+.research-card *,
+.research-card *:visited,
+.research-card *:hover,
+.research-card *:focus,
+.research-card *:active {
+  text-decoration: none !important;
+}
+
 .research-card:visited {
   color: inherit;
 }
@@ -468,6 +484,11 @@ html[data-theme="dark"] .home-section__note {
   transform: translateY(-2px);
   border-color: #d1d5db;
   box-shadow: 0 10px 24px rgba(24, 24, 27, 0.08);
+  text-decoration: none;
+}
+
+.research-card:hover *,
+.research-card:focus * {
   text-decoration: none;
 }
 
