@@ -67,7 +67,7 @@ sections:
             detail: "_**Yejin Yoon**\\*, Jisoo Kim\\*, Jungmin Lim, Jungyeon Lee, Taeuk Kim†._<br>Outstanding Paper Award.<br>[ Paper ](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11861880) · [ Code ](https://github.com/HYU-NLP/BlendX) · [ Data ](https://huggingface.co/datasets/HYU-NLP/BlendX)"
           - title: "A Multi-Intent Dataset Enhanced with Implicit Concatenation"
             meta: "KCC 2024 — Jun 2024"
-            detail: "_Sungmin So\\*, Jiu Min\\*, **Yejin Yoon**, Jungyeon Lee, Taeuk Kim†._<br>[ Paper ](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11861888)"
+            detail: "_Sungmin So\\*, Jiwoo Min\\*, **Yejin Yoon**, Jungyeon Lee, Taeuk Kim†._<br>[ Paper ](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11861888)"
           - title: "Enhanced Prompting for Multi-Label Classification"
             meta: "KCC 2024 — Jun 2024"
             detail: "_Jungyeon Lee, Youngwoo Shin, **Yejin Yoon**, Taeuk Kim†._<br>[ Paper ](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11861884)"
